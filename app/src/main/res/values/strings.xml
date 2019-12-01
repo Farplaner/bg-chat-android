@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BG Chat</string>
+    <string name="app_package">com.bluegartr.bgchat</string>
+
+    <string name="site_link">www.bluegartr.com</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">Enter</string>
+    <string name="remember_me">Remember me</string>
+
+    <string name="logging_in_text">Logging in...</string>
+
+	<!-- Chat Activity -->
+    <string name="chat_server">chat.bluegartr.com</string>
+    <string name="chat_zone">BGZone</string>
+    <string name="chat_room">BGMain</string>
+    <string name="chat_admin_room">BGAdmin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_topic">Topic</string>
+    <string name="action_kick">Kick</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_autoscroll">AutoScroll</string>
+
+    <string name="enter_message_hint">Enter Chat Message</string>
+
+	<!-- Preferences -->
+    <string name="menu_settings">Settings</string>
+
+    <string name="settings_title">BG Chat - Settings</string>
+
+    <string name="pref_general">General</string>
+    <string name="pref_keep_screen_on">Keep screen on</string>
+    <string name="pref_keep_screen_on_summary">Prevent the device from going into sleep while in chat screen</string>
+    <string name="pref_auto_reconnect">Auto-Reconnect</string>
+    <string name="pref_auto_reconnect_summary">Reconnects automatically to BG Chat when disconnected (Except when kicked or manual disconnect)</string>
+
+    <string name="pref_user_profile">User Profile</string>
+    <string name="pref_remember_login">Remember me</string>
+    <string name="pref_remember_login_key">prefRememberLogin</string>
+    <string name="pref_remember_login_summary">Login details will be saved on the device</string>
+    <string name="pref_auto_connect">Auto-Connect</string>
+    <string name="pref_auto_connect_summary">Connects automatically to BG Chat during startup</string>
+
+    <string name="pref_chat">Chat Settings</string>	
+    <string name="pref_notify_words">Mention words</string>
+    <string name="pref_notify_words_summary">Notify me when these words are mentioned in chat (comma separated)</string>
+    <string name="pref_vibrate">Vibrate on mention</string>
+    <string name="pref_vibrate_summary">Vibrate device when mentioned</string>
+    <string name="pref_sound">Shoryuken on notify</string>
+    <string name="pref_sound_summary">Shoryuken me when mentioned</string>
+    <string name="pref_ding_on_message">Ding on any chat message</string>
+    <string name="pref_ding_on_message_summary">Whenever a chat message is displayed a ding sound effect will be played</string>
+
+    <string name="pref_experimental">Experimental</string>
+    <string name="pref_keep_wifi_on">Keep wifi on</string>
+    <string name="pref_keep_wifi_on_summary">Prevent wifi from turning off (may reduce battery life)</string>
+
+    <string name="pref_username_key">prefUsername</string>
+    <string name="pref_password_key">prefPassword</string>
+</resources>

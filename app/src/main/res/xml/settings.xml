@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_general">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefKeepScreenOn"
+            android:title="@string/pref_keep_screen_on"
+            android:summary="@string/pref_keep_screen_on_summary">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoReconnect"
+            android:title="@string/pref_auto_reconnect"
+            android:summary="@string/pref_auto_reconnect_summary">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_user_profile">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefRememberLogin"
+            android:title="@string/pref_remember_login"
+            android:summary="@string/pref_remember_login_summary">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_chat" >
+        <EditTextPreference
+            android:key="prefNotifyWords"
+            android:title="@string/pref_notify_words"
+            android:summary="@string/pref_notify_words_summary" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefVibrate"
+            android:title="@string/pref_vibrate"
+            android:summary="@string/pref_vibrate_summary">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSound"
+            android:title="@string/pref_sound"
+            android:summary="@string/pref_sound_summary">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefDingOnMessage"
+            android:title="@string/pref_ding_on_message"
+            android:summary="@string/pref_ding_on_message_summary">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_experimental" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefKeepWifiOn"
+            android:title="@string/pref_keep_wifi_on"
+            android:summary="@string/pref_keep_wifi_on_summary">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
